@@ -16,6 +16,13 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 1250px !important;
+  margin: 0px auto;
+  padding: 0px 40px !important;
+}
+
 *,
 *::before,
 *::after {

@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.nav ul {
+.nav-list-wrapper ul {
   display: flex;
   gap: 88px;
   list-style: none;
@@ -76,4 +76,22 @@
   cursor: pointer;
   font-size: 20px;
   display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .nav-list-wrapper ul {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list-wrapper ul {
+    display: none;
+  }
+  .contact-btn {
+    display: none;
+  }
+  .close-btn {
+    display: block;
+  }
 }
