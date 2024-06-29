@@ -19,7 +19,7 @@ export default class App extends Component {
             <Route path='news' element={<NewsPage />} />
             <Route path='contact' element={<ContactPage />} />
           </Route>
-          <Route path='*' elemen={<NotFoundPage/>}/>
+          <Route path='*' element={<NotFoundPage/>}/>
         </Routes>
       </BrowserRouter>
     )
