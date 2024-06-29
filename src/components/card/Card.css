@@ -97,3 +97,12 @@ form{
   padding: 10px 75px 10px 5px;
   }
 }
+@media screen and (max-width: 340px){
+  .commonCall__right button{
+    position: relative;
+    right: 0;
+  }
+  .commonCall__right input{
+    padding: 10px 25px 10px 5px;
+  }
+}
