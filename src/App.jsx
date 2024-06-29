@@ -6,6 +6,7 @@ import NewsPage from './pages/NewsPage'
 import Portfolio from './pages/Portfolio'
 import Layout from './components/Layout'
 import NotFoundPage from './pages/NotFoundPage'
+import AboutPage from './pages/AboutPage'
 
 export default class App extends Component {
   render() {
@@ -14,12 +15,12 @@ export default class App extends Component {
         <Routes>
           <Route element={<Layout/>}>
             <Route index element={<HomePage />} />
-            <Route path='about' />
+            <Route path='about'  element={<AboutPage/>}/>
             <Route path='portfolio' element={<Portfolio />} />
             <Route path='news' element={<NewsPage />} />
             <Route path='contact' element={<ContactPage />} />
           </Route>
-          <Route path='*' elemen={<NotFoundPage/>}/>
+          <Route path='*' element={<NotFoundPage/>}/>
         </Routes>
       </BrowserRouter>
     )

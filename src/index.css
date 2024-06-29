@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#about {
+  background: linear-gradient(179.5deg, #070320 42.53%, #050D7C 61.57%, #2B36B5 87.08%);
+}
+
+.about__container--request{
+  padding-top: 80px;
+}
+.about__container--request--title {
+  margin-bottom: 63px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45.12px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.response__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 43px;
+  position: relative;
+}
+.response__box {
+  margin-bottom: 147px;
+  position: relative;
+  padding: 64px 37px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  overflow: hidden;
+}
+
+.response__box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(179.5deg, #070320 42.53%, #050D7C 61.57%, #2B36B5 87.08%);
+  z-index: -1;
+}
+.response__box--text1 {
+  padding: 7px 35px 6px 14px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+  background: rgba(176, 0, 220, 0.11);
+  display: inline-block;
+}
+.container {
+  padding: 0;
+}
+
+.response__box--title {
+  font-family: Poppins;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.response__box--text2 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+}
+
+@media screen and (max-width:1100px){
+  .response__box{
+    padding: 40px 20px;
+  }
+  .response__container{
+    gap: 20px;
+  }
+}
+@media screen and (max-width:850px){
+  .response__container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .response__box{
+    margin-bottom: 20px;
+  }
+  .about__container--request--title{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
