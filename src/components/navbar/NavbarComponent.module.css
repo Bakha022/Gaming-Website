@@ -88,9 +88,11 @@
   .nav-list-wrapper ul {
     display: none;
   }
+
   .contact-btn {
     display: none;
   }
+
   .close-btn {
     display: block;
   }
