@@ -1,0 +1,139 @@
+.footer {
+  height: auto;
+  background-color: #ffffff;
+  padding-top: 79px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-info {
+  max-width: 360px;
+}
+
+.footer-info a {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36.84px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.footer-info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer-info p:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+}
+
+.footer-wrapper ul h4 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.5px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.footer-wrapper ul li a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.81px;
+  color: #000000;
+}
+
+.footer-contact {
+  max-width: 282px;
+}
+
+.footer-contact h4 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.5px;
+  color: #000000;
+}
+.footer-contact p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer-contact p:nth-child(2) {
+  margin-top: 20px;
+  /* margin-bottom: 11px; */
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.footer-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background-color: #000000;
+  box-shadow: 0px 4px 14px 0px #00000026;
+  border-radius: 50%;
+}
+
+.footer-copyright {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.8px solid #000000;
+  margin-top: 53px;
+}
+
+.footer-copyright p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.78px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-wrapper {
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  .footer-copyright {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer {
+    padding-top: 40px;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-wrapper ul {
+    text-align: center;
+  }
+  .footer-contact {
+    text-align: center;
+  }
+}
