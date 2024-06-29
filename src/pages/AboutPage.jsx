@@ -74,15 +74,18 @@ export class AboutPage extends Component {
       <Fragment>
         <section id='about'>
           <div className="container about__container">
-            {/* <div className="about__container--header ">
-            <div className="about__container--header--left">
+
+            <div className="container">
+             <div className="row">
+              .col.
+              <div className="about__container--header--left">
               <a href="#link">Home &gt; <span>About us</span></a>
               <h2 className="about__container--header--title">Lorem Ipsum is simply dummy text of the printing and.</h2>
               <p className="about__container--header--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
               <NavLink to="/">Get in touch -&gt;</NavLink>
-            </div>
-            <div className="about__container--header--right">
+              </div>
+             <div className="about__container--header--right">
               <Slider {...settings} className="slider-container">
                 <div className='header__right--slick'>
                   <img src={image1} alt="image" />
@@ -91,8 +94,15 @@ export class AboutPage extends Component {
                   <img src={image1} alt="image" />
                 </div>
               </Slider>
+              </div>
+               </div>
             </div>
-          </div> */}
+             {/* <div className="about__container--header ">
+
+            </div> */}
+
+
+
             <div className="about__container--request">
               <h2 className='about__container--request--title'>Why work with us</h2>
               <div className='response__container'>
