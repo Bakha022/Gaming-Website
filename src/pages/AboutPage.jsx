@@ -33,35 +33,35 @@ export class AboutPage extends Component {
       }
     ],
 
-    teamMembers:[
+    teamMembers: [
       {
-        id:"1",
-        img:'/team-1.svg',
-        name:"John peter",
-        text:"coo"
+        id: "1",
+        img: '/team-1.svg',
+        name: "John peter",
+        text: "coo"
       },
       {
-        id:"2",
-        img:'/team-2.svg',
-        name:"John peter",
-        text:"coo"
+        id: "2",
+        img: '/team-2.svg',
+        name: "John peter",
+        text: "coo"
       },
       {
-        id:"3",
-        img:'/team-3.svg',
-        name:"John peter",
-        text:"coo"
+        id: "3",
+        img: '/team-3.svg',
+        name: "John peter",
+        text: "coo"
       },
       {
-        id:"4",
-        img:'/team-4.svg',
-        name:"John peter",
-        text:"coo"
+        id: "4",
+        img: '/team-4.svg',
+        name: "John peter",
+        text: "coo"
       }
     ]
   }
   render() {
-    let { responses,teamMembers } = this.state;
+    let { responses, teamMembers } = this.state;
     var settings = {
       dots: true,
       infinite: true,
@@ -103,16 +103,16 @@ export class AboutPage extends Component {
 
           </div>
           <div className="container-fluid about__container--info">
-          <div className="about__container--info2 container">
-            <div className="about__container--info--left">
-              <img src={image2} alt="image" />
-            </div>
-            <div className="about__container--info--right">
-              <p className="info--right--text1">Lorem ipsum</p>
-              <h2 className='info--right--title'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h2>
+            <div className="about__container--info2 container">
+              <div className="about__container--info--left">
+                <img src={image2} alt="image" />
+              </div>
+              <div className="about__container--info--right">
+                <p className="info--right--text1">Lorem ipsum</p>
+                <h2 className='info--right--title'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h2>
 
-              <p className="info--right--text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-            </div>
+                <p className="info--right--text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+              </div>
             </div>
           </div>
 
@@ -121,15 +121,15 @@ export class AboutPage extends Component {
               <h2 className='about__container--team--title'>Our Team</h2>
 
               <div className=" team__members">
-                {teamMembers.map((member)=> <AboutTeamCard key={member.id} {...member}/>)}
+                {teamMembers.map((member) => <AboutTeamCard key={member.id} {...member} />)}
               </div>
             </div>
 
             <div className="about__container--call">
-               <h2 className="about__container--call--title">Lorem ipsum</h2>
-               <p className='about__container--call-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <h2 className="about__container--call--title">Lorem ipsum</h2>
+              <p className='about__container--call-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-               <CommonCall />
+              <CommonCall />
             </div>
           </div>
         </section>
