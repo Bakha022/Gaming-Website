@@ -19,6 +19,13 @@
   );
 }
 
+.about__container--header{
+  color: #fff;
+  display: flex;
+}
+
+
+
 .about__container--request {
   padding-top: 80px;
 }
