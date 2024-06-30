@@ -1,32 +1,7 @@
 .location-head {
 	font-family: Poppins;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 33.36px;
-	color: white;
-}
 
-
-.location-main {
-	color: orange;
-}
-
-.contact-title {
-	font-family: Poppins;
-	font-size: 33px;
-	font-weight: 600;
-	line-height: 59.56px;
-	text-align: center;
-	color: white;
-	margin-bottom: 15px;
-}
-
-
-.second-text {
-	font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-line-height: 30px;
-text-align: center;
-color: white;
 }

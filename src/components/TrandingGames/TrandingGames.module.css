@@ -1,0 +1,112 @@
+.tranding-games {
+  margin-top: 100px;
+}
+
+.tranding-games__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tranding-games__head h3 {
+  font-family: Rubik;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 58.13px;
+  color: #ffffff;
+}
+.tranding-games__head a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 139px;
+  height: 57px;
+  border-radius: 10px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.5px;
+  color: #ffffff;
+  background-color: #ffffff1c;
+}
+
+.tranding-games__head a:hover {
+  background-color: #ffffff48;
+}
+
+.tranding-games__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card {
+  width: 100%;
+  max-width: 251px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.card h2 {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 41.25px;
+  color: #ffffff;
+}
+
+.card-top {
+  width: 100%;
+  max-width: 251px;
+  height: 277px;
+  border-radius: 20px;
+}
+
+.tranding-games p {
+  max-width: 826px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 65.63px;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .tranding-games__cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 640px) {
+  .tranding-games__head h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 10px;
+  }
+
+  .tranding-games__head a {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37.5px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .tranding-games p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 50px 0px;
+  }
+}
