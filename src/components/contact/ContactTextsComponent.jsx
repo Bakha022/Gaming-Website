@@ -1,8 +1,6 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 
 import { FaChevronRight } from "react-icons/fa"
-
-import { FaChevronRight } from 'react-icons/fa';
 
 
 import style from './ContactTextsComponent.module.css'
@@ -20,13 +18,6 @@ export default class ContactTextsComponent extends Component {
 				</div>
 				<h2 className={style['contact-title']}>Lorem Ipsum is simply dummy text of the printing and.</h2>
 				<p className={style['second-text']}>
-						<span className='location-head'>Home</span>
-						<FaChevronRight size={16} />
-						<span className='location-main'>Contact us</span>
-					</p>
-				</div>
-				<h2>Lorem Ipsum is simply dummy text of the printing and.</h2>
-				<p className='second-text'>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 				</p>
 			</div>
