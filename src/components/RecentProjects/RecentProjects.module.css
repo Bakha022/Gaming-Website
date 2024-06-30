@@ -1,5 +1,6 @@
 .recent-project-wrapper {
   background: linear-gradient(148.9deg, #070320 18.81%, #3b2a9f 199.4%);
+  padding-bottom: 100px;
 }
 .recent-projects {
   height: auto;

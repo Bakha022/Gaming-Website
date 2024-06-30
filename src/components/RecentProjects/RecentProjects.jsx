@@ -9,6 +9,7 @@ import img3 from "../../assets/images/img-3.png";
 import img4 from "../../assets/images/img-4.png";
 import img5 from "../../assets/images/img-5.png";
 import img6 from "../../assets/images/img-6.png";
+import Subscribe from "../subscribe/Subscribe";
 // import Subscribe from "../subscribe/Subscribe";
 
 class RecentProjects extends Component {
@@ -33,6 +34,7 @@ class RecentProjects extends Component {
             <Link to="/">SEE ALL</Link>
             {/* <Subscribe /> */}
           </div>
+          <Subscribe formColor={'#ffffff'} textColors={'#000000'} inputColor={'#000000'} buttonColor={'#D80027'} />
         </div>
       </div>
     );
