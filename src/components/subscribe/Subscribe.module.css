@@ -1,0 +1,109 @@
+.subscribe {
+  height: auto;
+}
+
+.subscribe h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56.25px;
+  color: #ffffff;
+}
+.subscribe p {
+  max-width: 545px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 12px;
+  text-align: left;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 40px 50px;
+}
+
+.form-info h4 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.form-info p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 25.5px;
+}
+
+.email-wrapper {
+  max-width: 385px;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.email-wrapper input {
+  font-family: Poppins;
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.email-wrapper input::placeholder {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19.5px;
+  text-align: left;
+  color: #898989;
+}
+
+.email-wrapper button {
+  font-family: Poppins;
+  width: 105px;
+  height: 37px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe form {
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px 15px;
+  }
+  .form-info p {
+    max-width: 100%;
+  }
+
+  .email-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .subscribe h3 {
+    font-size: 25px;
+  }
+  .form-info h4 {
+    font-size: 25px;
+  }
+}
