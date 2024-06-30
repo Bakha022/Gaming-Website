@@ -1,3 +1,5 @@
+ @import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
 .response__card {
   padding: 64px 37px;
   border-radius: 20px;
@@ -60,13 +62,95 @@
   text-align: left;
   color: rgba(232, 232, 232, 1);
 }
-@media screen and (max-width:400px){
-  .team__card{
-  padding: 35px 50px 30px;
+
+/* services */
+
+.info__card--services {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 38px;
+  border-radius: 10px;
+  position: relative;
+  padding: 52px 100px !important;
+  background: #1c140f;
+}
+.info__card--services::before {
+  position: absolute;
+  right: 0;
+  content: "";
+  clear: both;
+  display: inline-block;
+  width: 2px;
+  height: 125px;
+  background-color: #fff;
+}
+
+
+.info__card--services:nth-child(3)::before {
+  height: 0;
+  width: 0;
+  border: none;
+}
+.info__card--right h2 {
+  margin-bottom: 5px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+.info__card--right p {
+  margin-bottom: 0;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+@media screen and (max-width: 1250px){
+  .info__card--services{
+    width: 45%;margin-bottom: 20px;
+  }
+  .info__card--services::before {
+    position: absolute;
+    right: 0;
+    content: "";
+    clear: both;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    background-color: #fff;
   }
 }
-@media screen and (max-width:300px){
-  .team__card{
-  padding: 15px 30px 10px;
+@media screen and (max-width: 800px){
+  .info__card--services{
+    width: 100%;margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 540px){
+  .info__card--services{
+  padding: 30px 50px !important;
+  gap: 30px;
+  }
+}
+@media screen and (max-width: 420px){
+  .info__card--services{
+  padding: 20px 30px !important;
+  gap: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .team__card {
+    padding: 35px 50px 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .team__card {
+    padding: 15px 30px 10px;
   }
 }

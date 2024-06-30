@@ -9,6 +9,7 @@ import AboutHero from '../components/AboutHero/AboutHero';
 import AboutResponse from '../components/AboutResponse/AboutResponse';
 import AboutInfo from '../components/AboutInfo/AboutInfo';
 import AboutTeam from '../components/AboutTeam/AboutTeam';
+import AboutSubscribe from '../components/AboutSubscribe/AboutSubscribe';
 
 
 export class AboutPage extends Component {
@@ -70,6 +71,7 @@ export class AboutPage extends Component {
           <AboutResponse responses={responses}/>
           <AboutInfo/>
           <AboutTeam teamMembers={teamMembers}/>
+          <AboutSubscribe/>
         </section>
       </Fragment>
     );
