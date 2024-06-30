@@ -1,0 +1,50 @@
+.callOfDuty {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.callOfDuty .decor {
+  position: absolute;
+  width: 17%;
+  right: 11%;
+  top: 150px;
+}
+
+.callOfDuty img {
+  width: 100%;
+}
+.callOfDuty h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56.25px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.callOfDuty p {
+  max-width: 545px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .callOfDuty .decor {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .callOfDuty h1 {
+    font-size: 25px;
+  }
+  .callOfDuty .decor {
+    top: 230px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .callOfDuty .decor {
+    top: 280px;
+  }
+}
