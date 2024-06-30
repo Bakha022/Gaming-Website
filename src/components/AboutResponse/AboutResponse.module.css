@@ -1,0 +1,36 @@
+.response{
+  padding-bottom: 147px;
+}
+
+.response__title {
+  margin-bottom: 63px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45.12px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.response__row{
+  display: flex;
+  gap: 43px;
+}
+@media screen and (max-width:1000px){
+  .response__row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .response{
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width:800px){
+  .response__row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .response{
+    padding-bottom: 50px;
+  }
+}
