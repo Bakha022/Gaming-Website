@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import ContactTextsComponent from '../components/contact/ContactTextsComponent'
-import WorldMapComponent from '../components/contact/WorldMapComponent'
+import WorldMapComponent from '../components/WorldMap/WorldMapComponent'
 
 
 export default class ContactPage extends Component {

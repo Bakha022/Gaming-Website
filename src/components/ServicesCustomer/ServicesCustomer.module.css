@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.services__customer h2 {
+  max-width: 447px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  margin: 0 auto 20px;
+  color: #000000;
+}
+.services__customer p {
+  max-width: 555px;
+  margin:  0 auto 60px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: center;
+  color: #7C6161;
+}
+.services__customer--box {
+  padding-top: 88px;
+  padding-bottom: 60px;
+  background: #d0cac7;
+}
+.services__customer--slider--box {
+  padding: 30px;
+  border-radius: 30px;
+  min-height: 250px;
+  max-width: 360px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: all 0.6s linear;
+  display: flex;
+  justify-content: center;
+}
+
+.services__customer--slider--box:hover {
+  background-color: #000;
+}
+
+.services__customer--slider--box--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.services__customer--slider--box--top--names {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__customer--slider--box--top--name h2,
+.services__customer--slider--box--top--name p {
+  margin-bottom: 0;
+}
+.services__customer--slider--box--top--name h2 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+}
+.services__customer--slider--box:hover
+  .services__customer--slider--box--top--name
+  h2 {
+  color: #fff;
+}
+.services__customer--slider--box--top--name p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+.services__customer--slider--box--top--star {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.services__customer--slider--box--body {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+  color: #000;
+}
+.services__customer--slider--box:hover .services__customer--slider--box--body {
+  color: #fff;
+}
