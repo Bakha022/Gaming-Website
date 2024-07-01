@@ -1,7 +1,7 @@
 .services__advertising{
   display: flex;
   gap: 138px;
-  padding-bottom: 170px !important;
+  margin-bottom: 170px !important;
 }
 
 .services__advertising--right {
@@ -51,7 +51,7 @@
 @media screen and (max-width:1200px){
   .services__advertising{
     gap: 10px;
-    padding-bottom: 150px !important;
+    margin-bottom: 150px !important;
   }
 }
 @media screen and (max-width:1000px){
@@ -77,6 +77,6 @@
     max-width: 100%;
   }
   .services__advertising{
-    padding-bottom: 50px !important;
+    margin-bottom: 50px !important;
   }
 }
