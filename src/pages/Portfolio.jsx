@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import ServicesHero from '../components/ServicesHero/ServicesHero';
 import ServicesInfo from '../components/ServicesInfo/ServicesInfo';
 import ServicesAdvertising from '../components/ServicesAdvertising/ServicesAdvertising';
+import ServicesCustomer from '../components/ServicesCustomer/ServicesCustomer';
+import ServicesFooter from '../components/ServicesFooter/ServicesFooter';
 
 export default class Portfolio extends Component {
   state = {
@@ -52,6 +54,8 @@ export default class Portfolio extends Component {
           <ServicesHero servicesInfo={servicesInfo} />
           <ServicesInfo />
           <ServicesAdvertising servicesAdvertising={servicesAdvertising} />
+					<ServicesCustomer/>
+          <ServicesFooter/>
         </section>
       </Fragment>
     );

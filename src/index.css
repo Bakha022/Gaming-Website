@@ -33,7 +33,7 @@ ul {
   box-sizing: border-box;
 }
 
-#about {
+#about,#services {
   background: linear-gradient(
     179.5deg,
     #070320 42.53%,
