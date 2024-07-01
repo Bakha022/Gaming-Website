@@ -5,6 +5,8 @@ import { FaChevronRight } from "react-icons/fa"
 
 import style from './ContactTextsComponent.module.css'
 
+
+
 export default class ContactTextsComponent extends Component {
 	render() {
 		return (
