@@ -8,7 +8,7 @@ export class ServicesHero extends Component {
   render() {
     let {servicesInfo}=this.props
     return (
-      <div className={`container ${styles.services__hero}`}>
+      <div className={` ${styles.services__hero}`}>
         <div className={styles['services__hero--link']}>
           <Link className={styles.whiteLink} to="/">Home</Link> &gt; <Link className={styles.redLink} to="/services">Services</Link>
           </div>
