@@ -1,3 +1,67 @@
 .icons {
-	width: ;
+	width: 184px;
+	margin-right: 80px;
+}
+
+.icon-text {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30.32px;
+	color: whitesmoke;
+	margin-bottom: 18px;
+}
+
+.icon-social {
+	display: flex;
+	gap: 16px;
+}
+
+.icon {
+	border-radius: 50%;
+	padding: 11px;
+	background: #1C140F;
+	box-shadow: 0px 4px 14px 0px #00000026;
+	color: white;
+}
+
+
+
+.line {
+		width: 102px;
+		height: 1px;
+		border: 1px solid #FFFFFF;
+		border-radius: 1px;
+		transform: rotate(90deg);
+}
+
+
+.call {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	color: white;
+}
+
+.call span {
+	font-family: Poppins;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+}
+
+
+.location {
+	display: flex;
+	align-items: start;
+	gap: 19px;
+}
+
+.location span {
+	font-family: Poppins;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+width: 325px;
+color: white;
 }

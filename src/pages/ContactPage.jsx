@@ -1,15 +1,16 @@
 import React, { Component, Fragment } from 'react'
-import ContactTextsComponent from '../components/contact/ContactTextsComponent'
 import WorldMapComponent from '../components/WorldMap/WorldMapComponent'
-
+import ContactTextsComponent from '../components/contact/ContactTextsComponent'
 
 export default class ContactPage extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="contacts">
-					<ContactTextsComponent />
-					<WorldMapComponent/>
+				<div className='contacts'>
+					<div className='contact-top'>
+						<ContactTextsComponent />
+						<WorldMapComponent />
+					</div>
 				</div>
 			</Fragment>
 		)
