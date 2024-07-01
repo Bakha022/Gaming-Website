@@ -1,0 +1,30 @@
+
+.about__team--title {
+  margin-top: 150px;
+  margin-bottom: 53px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45.12px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.about__team--row{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 130px;
+}
+@media screen and (max-width:1200px){
+  .about__team--row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+  }
+}
+@media screen and (max-width:680px){
+  .about__team--row{
+    grid-template-columns: 1fr;
+  }
+}
