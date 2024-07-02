@@ -1,0 +1,35 @@
+ul.slick-dots {
+  text-align: left;
+  position: relative;
+  margin-left: 40px !important;
+}
+ul.slick-dots::before{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+  top: 10px;left: -40px;
+  border-radius: 10px;
+  background-color: red;
+}
+.slick-dots li button:before{
+  content: " ";
+}
+.slick-dots li button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #DDE0E4;
+}
+.slick-dots li.slick-active button{
+  background: red;
+}
+.slick-slider{
+  padding-bottom: 80px;
+}
+@media screen and (max-width:1200px){
+  .slick-next:before,.slick-prev:before{
+    display:  none;
+  }
+}
