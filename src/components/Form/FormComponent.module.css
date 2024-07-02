@@ -1,0 +1,185 @@
+.form-component {
+	background-color: white;
+	padding: 64px 0;
+	position: relative;
+}
+
+.form-title {
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 56.85px;
+	text-align: center;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.form-text {
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24.63px;
+	text-align: center;
+	color: black;
+	margin-bottom: 79px;
+}
+
+.form-content {
+	width: 671px;
+	margin: 0 auto;
+}
+
+.full-name-inputs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.full-name-inputs input {
+	width: 322px;
+	background-color: black;
+	border-radius: 9px;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+label {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24.56px;
+	letter-spacing: -0.30000001192092896px;
+	margin-bottom: 6px;
+}
+
+.email-input input {
+	width: 100%;
+	border-radius: 9px;
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+
+.texts-input {
+	margin-bottom: 51px;
+}
+
+.texts-input textarea {
+	width: 100%;
+	height: 232px;
+	overflowvisible-y: visible;
+	border-radius: 9px;
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+}
+
+.send-btn {
+	display: flex;
+	justify-content: end;
+}
+
+.send-btn button {
+	border-radius: 10px;
+	background-color: #d80027;
+	padding: 11px 47px;
+	border: none;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32.69px;
+	color: black;
+	position: static;
+	z-index: 15;
+}
+
+.top-img,
+.bottom-img {
+	position: absolute;
+	z-index: 5;
+}
+
+.top-img {
+	top: 0;
+	right: 0;
+}
+
+.bottom-img {
+	bottom: -1px;
+	left: 0;
+}
+
+
+.error-validation {
+	color: red;
+	font-size: 12px;
+}
+
+@media (max-width: 750px) {
+	.form-content {
+		width: 471px;
+	}
+
+	.full-name-inputs input {
+		width: 100%;
+	}
+}
+
+@media (max-width: 580px) {
+	.bottom-img {
+		display: none;
+	}
+
+	.form-content {
+		width: 371px;
+	}
+
+	.full-name-inputs input {
+		width: 180px;
+	}
+
+	.send-btn button {
+		padding: 11px 30px;
+	}
+}
+
+@media (max-width: 447px) {
+	.bottom-img {
+		display: none;
+	}
+
+	.form-content {
+		width: 300px;
+	}
+
+	.full-name-inputs input {
+		width: 300px;
+	}
+
+	.send-btn button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 383px) {
+	.form-content {
+		width: 220px;
+	}
+
+	.full-name-inputs input {
+		width: 220px;
+	}
+
+	.send-btn button {
+		padding: 5px
+	}
+}
+
+
+

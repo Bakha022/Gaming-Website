@@ -20,21 +20,18 @@
 .icon {
 	border-radius: 50%;
 	padding: 11px;
-	background: #1C140F;
+	background: #1c140f;
 	box-shadow: 0px 4px 14px 0px #00000026;
 	color: white;
 }
 
-
-
 .line {
-		width: 102px;
-		height: 1px;
-		border: 1px solid #FFFFFF;
-		border-radius: 1px;
-		transform: rotate(90deg);
+	width: 102px;
+	height: 1px;
+	border: 1px solid #ffffff;
+	border-radius: 1px;
+	transform: rotate(90deg);
 }
-
 
 .call {
 	display: flex;
@@ -45,11 +42,10 @@
 
 .call span {
 	font-family: Poppins;
-font-size: 20px;
-font-weight: 300;
-line-height: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
 }
-
 
 .location {
 	display: flex;
@@ -59,23 +55,18 @@ line-height: 30px;
 
 .location span {
 	font-family: Poppins;
-font-size: 20px;
-font-weight: 300;
-line-height: 30px;
-width: 325px;
-color: white;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	width: 325px;
+	color: white;
 }
-
-
-
 
 @media (max-width: 1154px) {
-.world-map-bottom {
-	gap: 50px;
+	.world-map-bottom {
+		gap: 50px;
+	}
 }
-}
-
-
 
 @media (max-width: 878px) {
 	.world-map-bottom {
@@ -111,10 +102,16 @@ color: white;
 	.location span {
 		text-align: center;
 	}
-	}	
+}
 
-@media  (max-width: 417px) {
-		.location span {
-			width: 200px;
-		}
+@media (max-width: 417px) {
+	.location span {
+		width: 200px;
+	}
+}
+
+@media (max-width: 302px) {
+	.call {
+		flex-direction: column;
+	}
 }
