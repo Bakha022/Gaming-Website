@@ -19,7 +19,7 @@ export default class WorldMapComponent extends Component {
 					<div className='d-flex justify-content-center'>
 						<img className='w-100' src={svg} alt='world-img' />
 					</div>
-					<div className='d-flex align-items-center justify-content-between mt-5 flex-wrap'>
+					<div className={`${style['world-map-bottom']} d-flex align-items-center justify-content-between mt-5 flex-wrap`}>
 						<div className={style['icons']}>
 							<p className={style['icon-text']}>Follow us</p>
 							<div className={`${style['icon-social']}`}>

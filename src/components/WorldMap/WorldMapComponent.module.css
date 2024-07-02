@@ -65,3 +65,56 @@ line-height: 30px;
 width: 325px;
 color: white;
 }
+
+
+
+
+@media (max-width: 1154px) {
+.world-map-bottom {
+	gap: 50px;
+}
+}
+
+
+
+@media (max-width: 878px) {
+	.world-map-bottom {
+		flex-direction: column;
+		align-items: center;
+	}
+	.line {
+		transform: rotate(180deg);
+	}
+
+	.icons {
+		width: 100%;
+		margin-right: 0;
+	}
+	.icon-text {
+		text-align: center;
+	}
+
+	.icon-social {
+		justify-content: center;
+	}
+
+	.call {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.location {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.location span {
+		text-align: center;
+	}
+	}	
+
+@media  (max-width: 417px) {
+		.location span {
+			width: 200px;
+		}
+}
