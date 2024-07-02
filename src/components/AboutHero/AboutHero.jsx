@@ -18,7 +18,7 @@ export class AboutHero extends Component {
         <div className={styles.about__hero}>
           <div className={styles['about__hero--left']}>
             <div className={styles['about__hero--left--link']}>
-              <Link className={styles.whiteLink} to="/">Home</Link> &gt; <Link to="/about-us" className={styles.redLink}>About us</Link>
+              <Link className={styles.whiteLink} to="/">Home</Link> &gt; <Link to="/about" className={styles.redLink}>About us</Link>
             </div>
             <h2 className={styles['about__hero--left--title']}>Lorem Ipsum is simply dummy text of the printing and.</h2>
             <p className={styles['about__hero--left--text']}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
