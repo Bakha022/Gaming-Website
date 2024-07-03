@@ -8,7 +8,11 @@
     justify-content: space-between;
     gap: 70px;
 
-    @media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 700px) {
+    .cards__items {
+
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -71,9 +75,13 @@
     gap: 31px;
     margin-bottom: 60px;
 
-    @media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 850px) {
+    .litle__card {
         flex-wrap: wrap;
         justify-content: center;
+
     }
 }
 
@@ -89,4 +97,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media screen and (max-width:420px) {
+    .card__image img {
+        width: 100%;
+    }
 }

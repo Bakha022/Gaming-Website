@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import arrow from "../../assets/images/right-arrow.png"
+import search from "../../assets/images/search.png"
 import "./hero.css"
 
 class Hero extends Component {
@@ -24,7 +25,9 @@ class Hero extends Component {
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.{" "}
                         </p>
-                        <form action="">
+                        <form className="news__form">
+                            <img src={search} alt="" />
+
                             <input type="text" name="Search" placeholder="Search" />
                         </form>
                     </div>

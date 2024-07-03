@@ -59,21 +59,24 @@
     line-height: 187.5%;
 }
 
-form {
+.news__form {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    margin: auto;
     margin-top: 74px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #e1d3ca;
+    border-radius: 10px;
+    padding-left: 20px;
 
 }
 
-input[type="text"] {
-    width: 400px;
+input {
+    background-color: transparent;
+    outline: none;
     border: none;
-    border-radius: 10px;
     font-size: 16px;
-    background: #e1d3ca;
-    background-image: url("../assets/search.png");
-    background-position: 20px 12px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 20px;
 }
