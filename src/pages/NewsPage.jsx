@@ -14,7 +14,6 @@ export default class NewsPage extends Component {
 				</section>
 				<div className='container'>
 					<Subscribe />
-
 				</div>
 			</Fragment>
 		)

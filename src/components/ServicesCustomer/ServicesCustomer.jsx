@@ -4,6 +4,7 @@ import customer2 from "../../assets/images/customer-2.svg";
 import customer3 from "../../assets/images/customer-3.svg";
 import star from "../../assets/images/star.svg"
 
+import "./ServicesCustomer.css"
 import styles from "./ServicesCustomer.module.css";
 import Slider from 'react-slick';
 export class ServicesCustomer extends Component {

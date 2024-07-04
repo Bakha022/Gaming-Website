@@ -9,8 +9,8 @@ export default class LoadingComponent extends Component {
 	render() {
 		return (
 			<div className={style['loading']}>
-				<PacmanLoader className={style['laoding-icon']} 
-				size={76} 
+				<PacmanLoader className={style['laoding-icon']}
+				size={76}
 				color="red" />
 			</div>
 		)
