@@ -8,14 +8,14 @@ export class ServicesHero extends Component {
   render() {
     let {servicesInfo}=this.props
     return (
-      <div className={` ${styles.services__hero}`}>
+      <div className={`container ${styles.services__hero}`}>
         <div className={styles['services__hero--link']}>
           <Link className={styles.whiteLink} to="/">Home</Link> &gt; <Link className={styles.redLink} to="/portfolio">Services</Link>
           </div>
           <h2 className={styles['services__hero--title']}>Lorem Ipsum is simply dummy text of the printing and.</h2>
           <p className={styles['services__hero--text']}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-          <div className={` container ${styles['services__hero--row']}`}>
+          <div className={` ${styles['services__hero--row']}`}>
             {servicesInfo.map((info)=><ServicesHeroCard key={info.id} {...info}/>)}
           </div>
       </div>

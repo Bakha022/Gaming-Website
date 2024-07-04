@@ -102,7 +102,11 @@
 	.location span {
 		text-align: center;
 	}
+<<<<<<< HEAD
 }
+=======
+	}
+>>>>>>> 3e8463391c5f59d276455826de8febe41e76a6cf
 
 @media (max-width: 417px) {
 	.location span {
