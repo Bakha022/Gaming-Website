@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import arrow from "../../assets/images/right-arrow.png"
+import { FaChevronRight } from "react-icons/fa"
+
 import "./hero.css"
 
 class Hero extends Component {
@@ -11,7 +12,7 @@ class Hero extends Component {
                         <a className="hero__items-href" href="/">
                             Home
                         </a>
-                        &gt;
+                        <FaChevronRight className='text-white' size={14} />
                         <a className="hero__items-href" href="#">
                             News
                         </a>
@@ -24,7 +25,7 @@ class Hero extends Component {
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.{" "}
                         </p>
-                        <form action="">
+                        <form className="news-form" action="">
                             <input type="text" name="Search" placeholder="Search" />
                         </form>
                     </div>

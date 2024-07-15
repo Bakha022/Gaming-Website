@@ -10,25 +10,23 @@ const Layout = lazy(() => import('./components/Layout'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 const AboutPage = lazy(() => import('./pages/AboutPage'))
 
-
-
 export default class App extends Component {
-  render() {
-    return (
-      <Suspense fallback={<LoadingComponent/>}>
-        <BrowserRouter>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route index element={<HomePage />} />
-              <Route path='about' element={<AboutPage />} />
-              <Route path='portfolio' element={<Portfolio />} />
-              <Route path='news' element={<NewsPage />} />
-              <Route path='contact' element={<ContactPage />} />
-            </Route>
-            <Route path='*' element={<NotFoundPage />} />
-          </Routes>
-        </BrowserRouter>
-      </Suspense>
-    )
-  }
+	render() {
+		return (
+			<Suspense fallback={<LoadingComponent />}>
+				<BrowserRouter>
+					<Routes>
+						<Route element={<Layout />}>
+							<Route index element={<HomePage />} />
+							<Route path='about' element={<AboutPage />} />
+							<Route path='portfolio' element={<Portfolio />} />
+							<Route path='news' element={<NewsPage />} />
+							<Route path='contact' element={<ContactPage />} />
+						</Route>
+						<Route path='*' element={<NotFoundPage />} />
+					</Routes>
+				</BrowserRouter>
+			</Suspense>
+		)
+	}
 }

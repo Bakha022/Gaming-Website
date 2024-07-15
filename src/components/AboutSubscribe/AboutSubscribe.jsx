@@ -7,7 +7,7 @@ export class AboutSubscribe extends Component {
     return (
       <div className={`container `}>
         <div className={styles.subscribe}>
-        <Subscribe className={styles.subscibe__container} formColor={'#1C140F'} textColors={'#fff'} inputColor={'#000000'} buttonColor={'#D80027'}/>
+        <Subscribe className={styles.subscibe__container} formColor={'#1C140F'} textColors={'#fff'} inputColor={'#ffffff'} buttonColor={'#D80027'}/>
         </div>
       </div>
     )
